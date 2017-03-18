@@ -3,7 +3,7 @@ Web Crawler Spider for extraction of course data from [Juilliard](http://catalog
 
 ## Running the Spider 
 In order to run the crawler, you must have Python 2.7 or higher and have installed BeautifulSoup 4 and Scrapy Framework.
-Execute the following command in the Julliard/ root directory
+Execute the following command in the Julliard/ root directory.  The outputs should be in the results.csv file.
 - scrapy crawl juilliardSpider -o results.csv -t csv
 
 
