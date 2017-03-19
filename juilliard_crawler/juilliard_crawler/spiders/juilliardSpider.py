@@ -21,7 +21,7 @@ def parse_item(self, response):
         TITLE_SELECTOR = 'h3 ::text'
 
         yield{
-            'title': juilliardset.css(NAME_SELECTOR).extract_first(),
+            'title': juilliardset.css(TITLE_SELECTOR).extract_first(),
 
         }
 
